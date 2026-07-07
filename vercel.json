@@ -1,0 +1,6 @@
+{
+  "crons": [
+    { "path": "/api/cron/pulse-refresh", "schedule": "0 */4 * * *" },
+    { "path": "/api/cron/quarterly-compliance-check", "schedule": "0 9 1 */3 *" }
+  ]
+}
